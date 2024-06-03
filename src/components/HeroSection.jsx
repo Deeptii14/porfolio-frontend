@@ -94,14 +94,14 @@ const HeroSection = () => {
                 id="btn"
                 className=" w-fit font-medium  bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 rounded-md hover:bg-white hover:text-black peer-hover:text-black"
               >
-                <a href="#contact">Contact Me</a>
+                <a href="#contact">Connect</a>
               </button>
             </div>
           </div>
         </div>
         {/* image */}
 
-        <div className=" flex lg:w-1/2 w-full h-full items-center justify-center lg:pl-4 lg:mt-4 mt-14">
+        <div className=" flex lg:w-1/2 w-full h-full items-center justify-center lg:pl-4 lg:mt-4 mt-6">
           <Swiper
             slidesPerView={1}
             spaceBetween={25}
