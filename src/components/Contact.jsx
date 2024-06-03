@@ -65,12 +65,18 @@ const Contact = () => {
   >
 
                 <div className=' w-[90%] h-[90%] lg:flex md:block justify-center items-center hidden'>
+                <motion.div
+        alt="Animated"
+       
+        animate={{ y: ['-4%', '4%'] }}
+        transition={{ duration: 5, ease: 'linear', repeat: Infinity ,delay:2.1 }}
+      >
                     <img
                       src={img2}
                       alt=""
                       className="object-fill "
                     />
-                 
+                 </motion.div>
                 </div>
   </motion.div>
               

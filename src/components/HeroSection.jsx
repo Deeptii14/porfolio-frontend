@@ -35,8 +35,8 @@ const HeroSection = () => {
         duration: 1.5,
       }}
     >
-      <div className="flex lg:flex-row md:flex-row flex-col-reverse gap-y-11 justify-between lg:h-[500px] w-10/12 mx-auto 
-      relative lg:mt-[80px] mt-16 z-0 mb-10">
+      <div className="flex lg:flex-row md:flex-row flex-col-reverse gap-y-11 justify-between  lg:h-[500px] w-10/12 mx-auto 
+      relative lg:mt-[80px] mt-16 z-0 mb-20">
         <div className="flex flex-col h-full justify-center lg:w-5/12 w-full mt-20 lg:mt-0 md:mt-0">
           <div className="flex flex-col  ">
             <div className=" flex text-4xl font-semibold leading-10 ">
@@ -67,7 +67,7 @@ const HeroSection = () => {
             </p>
           </div>
          
-          <div className="lg:mt-16 flex items-center mt-8 gap-x-4  text-lg font-bold ">
+          <div className="lg:mt-20 flex items-center mt-8 gap-x-4  text-lg font-bold ">
             <div className=" flex items-center gap-x-3">
               <div className=" social rounded-full p-2 hover:bg-gradient-to-r hover:from-cyan-500 text- hover:to-teal-500">
                 <a className="bg-clip-text text-[#06b6d4]">

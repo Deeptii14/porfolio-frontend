@@ -4,8 +4,8 @@ import { motion } from 'framer-motion';
 import { FaPaperPlane } from 'react-icons/fa6';
 const About = () => {
   return (
-    <div id='about' className='w-10/12  mx-auto mb-12 mt-4 pt-2'>
-      <p className='text-3xl mb-4 font-semibold hidden lg:block md:block'> About Me </p>
+    <div id='about' className='w-10/12  mx-auto mb-12 mt-10 pt-2'>
+      {/* <p className='text-3xl mb-4 font-semibold hidden lg:block md:block text-center'> About Me </p> */}
       <div className='flex lg:flex-row md:flex-row flex-col justify-between items-center mt-3 pt-4'>
       <div  className='lg:w-1/2 md:w-1/2 w-full'>
        
@@ -19,6 +19,8 @@ const About = () => {
     </motion.div>
       </div>
       <div className='lg:w-1/2 md:w-1/2 w-full'>
+      <p className='text-3xl mb-2 font-semibold hidden lg:block md:block '> About Me </p>
+
  <p className='pt-4 text-xl text-justify'>
             I am a passionate full-stack web developer with a curious mind and a knack for problem-solving, thrive on
             the challenge of creating seamless, end-to-end web experiences 🚀. 

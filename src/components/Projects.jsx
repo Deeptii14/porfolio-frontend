@@ -58,70 +58,72 @@ const projects = [
 const Projects = () => {
   return (
     <div className="w-full bg-gradient-to-r bg-cyan-50 border-y-teal-100">
-
-   
-    <div className="w-10/12 mx-auto bg-gradient-to-r ">
-      <div className="flex flex-col  z-0 m" id="project">
-        <div className="waviy lg:text-7xl md:text-5xl text-4xl mb-10 ">
-          <span
-            style={{ "--i": "1" }}
-            className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500  to-teal-500"
-          >
-            P
-          </span>
-          <span
-            style={{ "--i": "2" }}
-            className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 text- to-teal-500"
-          >
-            R
-          </span>
-          <span
-            style={{ "--i": "3" }}
-            className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 text- to-teal-500"
-          >
-            O
-          </span>
-          <span
-            style={{ "--i": "4" }}
-            className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 text- to-teal-500"
-          >
-            J
-          </span>
-          <span
-            style={{ "--i": "5" }}
-            className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 text- to-teal-500"
-          >
-            E
-          </span>
-          <span
-            style={{ "--i": "6" }}
-            className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 text- to-teal-500"
-          >
-            C
-          </span>
-          <span
-            style={{ "--i": "7" }}
-            className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 text- to-teal-500"
-          >
-            T
-          </span>
-          <span
-            style={{ "--i": "8" }}
-            className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 text- to-teal-500"
-          >
-            S
-          </span>
+      <div className="w-10/12 mx-auto bg-gradient-to-r ">
+        <div className="flex flex-col  z-0 m" id="project">
+          <div className=" flex waviy lg:text-7xl md:text-5xl text-4xl mb-10 justify-center ">
+            <span
+              style={{ "--i": "1" }}
+              className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500  to-teal-500"
+            >
+              P
+            </span>
+            <span
+              style={{ "--i": "2" }}
+              className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 text- to-teal-500"
+            >
+              R
+            </span>
+            <span
+              style={{ "--i": "3" }}
+              className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 text- to-teal-500"
+            >
+              O
+            </span>
+            <span
+              style={{ "--i": "4" }}
+              className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 text- to-teal-500"
+            >
+              J
+            </span>
+            <span
+              style={{ "--i": "5" }}
+              className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 text- to-teal-500"
+            >
+              E
+            </span>
+            <span
+              style={{ "--i": "6" }}
+              className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 text- to-teal-500"
+            >
+              C
+            </span>
+            <span
+              style={{ "--i": "7" }}
+              className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 text- to-teal-500"
+            >
+              T
+            </span>
+            <span
+              style={{ "--i": "8" }}
+              className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 text- to-teal-500"
+            >
+              S
+            </span>
+          </div>
+        </div>
+        <div className="flex flex-col gap-y-8">
+          <p className="text-center text-2xl font-medium text-gray-700">
+            I have a solid portfolio of various web development projects, each a
+            testament to my dedication and expertise in crafting functional and
+            innovative digital solutions. Explore my work to see how I turn
+            ideas into reality.
+          </p>
+          <ProjectCard project={projects[0]} />
+          <ProjectCard project={projects[1]} />
         </div>
       </div>
-      <div className="flex flex-col gap-y-8">
-
-      <ProjectCard project={projects[0]} />
-      <ProjectCard project={projects[1]} />
-      </div>
-    </div>
     </div>
   );
 };
 
 export default Projects;
-
