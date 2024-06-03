@@ -9,7 +9,7 @@ import img2 from "../assets/Herosection/undraw_online_learning_re_qw08.svg";
 import img3 from "../assets/Herosection/undraw_people_search_re_5rre.svg";
 import img4 from "../assets/Herosection/undraw_portfolio_feedback_6r17.svg";
 import img5 from "../assets/Herosection/undraw_react_re_g3ui.svg";
-import img6 from "../assets/Herosection/undraw_programmer_re_owql.svg";
+// import img6 from "../assets/Herosection/undraw_programmer_re_owql.svg";
 import { FreeMode, Pagination, Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { motion } from "framer-motion";
@@ -21,7 +21,7 @@ import "swiper/css/pagination";
 import "swiper/css/free-mode";
 
 const HeroSection = () => {
-  const images = [img1, img2, img3, img4, img5, img6];
+  const images = [img1, img2, img3, img4, img5, ];
 
   return (
     <motion.div
@@ -35,8 +35,9 @@ const HeroSection = () => {
         duration: 1.5,
       }}
     >
-      <div className="flex lg:flex-row md:flex-row flex-col-reverse gap-y-11 justify-between lg:h-[500px] w-10/12 mx-auto relative lg:mt-[80px] mt-16 z-0 mb-10">
-        <div className="flex flex-col h-full justify-center lg:w-5/12 w-full">
+      <div className="flex lg:flex-row md:flex-row flex-col-reverse gap-y-11 justify-between lg:h-[500px] w-10/12 mx-auto 
+      relative lg:mt-[80px] mt-16 z-0 mb-10">
+        <div className="flex flex-col h-full justify-center lg:w-5/12 w-full mt-20 lg:mt-0 md:mt-0">
           <div className="flex flex-col  ">
             <div className=" flex text-4xl font-semibold leading-10 ">
               {" "}
@@ -65,12 +66,8 @@ const HeroSection = () => {
               </span>
             </p>
           </div>
-          {/* <p className='pt-4 text-xl text-justify'>
-            I am a passionate full-stack web developer with a curious mind and a knack for problem-solving, thrive on
-            the challenge of creating seamless, end-to-end web experiences 🚀. I love to learn and explore new
-            technologies.
-          </p> */}
-          <div className="lg:mt-10 flex items-center mt-8 gap-x-4  text-lg font-bold ">
+         
+          <div className="lg:mt-16 flex items-center mt-8 gap-x-4  text-lg font-bold ">
             <div className=" flex items-center gap-x-3">
               <div className=" social rounded-full p-2 hover:bg-gradient-to-r hover:from-cyan-500 text- hover:to-teal-500">
                 <a className="bg-clip-text text-[#06b6d4]">
@@ -101,7 +98,7 @@ const HeroSection = () => {
         </div>
         {/* image */}
 
-        <div className=" flex lg:w-1/2 w-full h-full items-center justify-center lg:pl-4 lg:mt-4 mt-6">
+        <div className=" lg:flex lg:w-1/2 w-full h-full items-center justify-center lg:pl-4 lg:mt-4 mt-6 hidden md:flex ">
           <Swiper
             slidesPerView={1}
             spaceBetween={25}

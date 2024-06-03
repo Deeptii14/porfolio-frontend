@@ -57,7 +57,10 @@ const projects = [
 ];
 const Projects = () => {
   return (
-    <div className="w-10/12 mx-auto ">
+    <div className="w-full bg-gradient-to-r bg-cyan-50 border-y-teal-100">
+
+   
+    <div className="w-10/12 mx-auto bg-gradient-to-r ">
       <div className="flex flex-col  z-0 m" id="project">
         <div className="waviy lg:text-7xl md:text-5xl text-4xl mb-10 ">
           <span
@@ -115,6 +118,7 @@ const Projects = () => {
       <ProjectCard project={projects[0]} />
       <ProjectCard project={projects[1]} />
       </div>
+    </div>
     </div>
   );
 };

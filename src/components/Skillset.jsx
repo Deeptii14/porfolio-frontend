@@ -36,24 +36,7 @@ bottom-[-34.5%] right-[-25%] select-none overflow-y-hidden lg:block md:block hid
           </h2>
 
           <div className="mt-4 text-justify leading-6">
-            <p>
-              Hi Everyone My name is Deepti I am a Full Stack Web Developer. I
-              am a final year BTECH Student. Currently I am pursuing my BTECH
-              from JMIETI Radaur in computer Science. I am specialised in MERN
-              Stack technology which basically means
-              MongoDB,Express.JS,React.JS,Node.JS.
-            </p>
-            <p>
-              I love to explore and learn new technologies as much I can. Right
-              Now I am looking forward to collaborate in real life project to
-              start up my carrer as an Software Engineer.
-            </p>
-            <p>
-              If you want to collaborate with me please feel free to contact me.
-            </p>
-            <div class="box text-2xl mt-4 w-fit p-3">
-              <p>Let's connect</p>
-            </div>
+           
           </div>
         </div>
 
