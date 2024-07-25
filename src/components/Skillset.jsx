@@ -18,7 +18,7 @@ import { motion } from "framer-motion";
 const Skillset = () => {
   return (
     <div className="mt-16 w-10/12 mx-auto" id="skills">
-      <div className=" w-full box flex lg:flex-row md:flex-row flex-row relative gap-7 ">
+      <div className=" w-full box flex lg:flex-row md:flex-row flex-col relative gap-7 ">
         <div
           className="absolute text-[15em] opacity-50 bg-clip-text text-transparent bg-gradient-to-r from-cyan-500  to-teal-500 
 bottom-[-34.5%] right-[-25%] select-none overflow-y-hidden lg:block md:block hidden"
@@ -30,9 +30,9 @@ bottom-[-34.5%] right-[-25%] select-none overflow-y-hidden lg:block md:block hid
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500  to-teal-500 text-8xl">
               M
             </span>
-            e and
+            y Tech Stack
             <br />
-            MyTech Stack
+           
           </h2>
 
           <div className="mt-4 text-justify leading-6">

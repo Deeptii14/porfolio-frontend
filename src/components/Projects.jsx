@@ -112,7 +112,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex flex-col gap-y-8">
-          <p className="text-center text-2xl font-medium text-gray-700">
+          <p className="text-center lg:text-2xl md:text-2xl  lg:font-medium md:font-medium text-gray-700">
             I have a solid portfolio of various web development projects, each a
             testament to my dedication and expertise in crafting functional and
             innovative digital solutions. Explore my work to see how I turn
